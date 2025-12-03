@@ -7,12 +7,11 @@ test('that true is true', function () {
     expect(true)->toBeTrue();
 });
 
-
-class CryptoTestUnit extends TestCase{
-
+class CryptoTestUnit extends TestCase
+{
     public function test_encrypt()
     {
-        $controller = new CryptoController();
+        $controller = new CryptoController;
 
         $encoded = $controller->base64Encrypt('Pasenos profe');
         $decoded = $controller->base64Decrypt($encoded);
@@ -20,4 +19,3 @@ class CryptoTestUnit extends TestCase{
         $this->assertEquals('Pasenos profe', $decoded);
     }
 }
-
