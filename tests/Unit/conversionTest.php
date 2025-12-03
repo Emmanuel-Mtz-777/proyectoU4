@@ -2,8 +2,8 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Http\Controllers\conversionController;
+use Tests\TestCase;
 
 class ConversionControllerTest extends TestCase
 {

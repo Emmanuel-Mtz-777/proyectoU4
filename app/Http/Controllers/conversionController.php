@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 class conversionController extends Controller
 {
-
     public function cToF($c)
     {
         return ($c * 9 / 5) + 32;
@@ -14,5 +13,4 @@ class conversionController extends Controller
     {
         return $mb / 1024;
     }
-
 }
