@@ -7,7 +7,7 @@ class CryptoTest extends TestCase
 {
     public function test_encrypt()
     {
-        $controller = new CryptoController();
+        $controller = new CryptoController;
 
         $original = 'Pasenos profe';
 
