@@ -7,7 +7,7 @@ class conversionController extends Controller
 
     public function cToF($c)
     {
-        return ($c * 9/5) + 32;
+        return ($c * 9 / 5) + 32;
     }
 
     public function mbToGb($mb)
