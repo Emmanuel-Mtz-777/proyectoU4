@@ -7,3 +7,4 @@ parameters:
         - config
         - database
     level: 6
+    inferPrivatePropertyTypeFromConstructor: true

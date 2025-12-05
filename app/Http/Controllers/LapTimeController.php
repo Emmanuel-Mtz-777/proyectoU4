@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Services\LapTimeService;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 class LapTimeController extends Controller
@@ -14,7 +15,7 @@ class LapTimeController extends Controller
         $this->service = $service;
     }
 
-    public function calcular(Request $request)
+    public function calcular(Request $request): JsonResponse
     {
         $request->validate([
             'time' => 'required|string',
