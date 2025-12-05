@@ -9,5 +9,3 @@ Route::get('/', function () {
 use App\Http\Controllers\LapTimeController;
 
 Route::post('/lap', [LapTimeController::class, 'calcular']);
-
-

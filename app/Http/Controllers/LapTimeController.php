@@ -28,4 +28,3 @@ class LapTimeController extends Controller
         ]);
     }
 }
-
