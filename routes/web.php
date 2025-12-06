@@ -9,3 +9,7 @@ Route::get('/', function () {
 use App\Http\Controllers\LapTimeController;
 
 Route::post('/lap', [LapTimeController::class, 'calcular']);
+
+use App\Http\Controllers\DiscountController;
+
+Route::post('/discount/calculate', [DiscountController::class, 'calculate']);
